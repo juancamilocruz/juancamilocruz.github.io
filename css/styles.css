@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Acá se encuentra estilos generales  */
+
+.image-container{
+    display: flex;
+}
+
+.image-container img{
+    width: 100%;
+}
+
+/* Acá tengo los estilos del header */
+
+header {
+    background: #1f1f1f;
+    padding: 10px 50px;
+    
+}
+
+#logo {
+    width: 50px;
+}
+
+#logo img {
+    border-radius: 100%;
+    border: 2px solid #000;
+}
+
+/* Acá estan los estilos del hero */
+
+#hero{
+    position: relative;
+}
+
+#hero #computadora {
+    display: inline-block;
+    width: 100%;
+}
+
+#hero .informacion-contenedor {
+    position: absolute;
+    top: 16%;
+    transform: translateY(-50%);
+    left: 270px;
+    display: flex;
+    width: 100%;
+    color: #161313d6;
+    padding: 0 50px;
+}
+
+#hero .informacion-contenedor #foto {
+    width: 200px;
+}
+
+#hero .informacion-contenedor #foto img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+#hero .informacion-contenedor .informacion{
+    margin-left: 20px;
+    font-weight: bold;
+    width: calc(100% - 200px);
+    margin-bottom: 15px; 
+}
+
+#hero .informacion-contenedor .informacion span {
+    display: inline-block;
+    color: #16131396;
+    margin-bottom: 25px;
+}
+
+/* Estilos del main */
+
+main {
+    padding: 100px;
+}
+
+main .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    list-style: none;
+}
+
+main .social-icons li{
+    margin-left: 8px;
+}
+
+main .social-icons .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+main .social-icons #LinkedIn {
+    background: #0077b0;
+}
+
+main .social-icons #GitHub {
+    background: #23272d;
+}
+
+main .social-icons #Twitter {
+    background: #1da1f2;
+}
+
+main .social-icons #Youtube {
+    background: #f70000;
+}
+
+main .social-icons #Platzi {
+    background: #121f3d;
+}
